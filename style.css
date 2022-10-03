@@ -1,0 +1,46 @@
+body{
+    background-color: red;
+}
+
+.top {
+    margin-top: 94px;
+}
+
+p,
+h1,
+h2
+h3
+h4
+h5
+h6{
+    color: #fff;
+}
+
+p {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+button{
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    padding: 5px 23px;
+    font-weight: 600;
+}
+button:hover{
+    background: #fff;
+    color: red;
+    border: 2px solid  red;
+    border-radius: 8px;
+    padding: 5px 23px;
+    transition: 0.5s;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 51px;
+    font-weight: 800;
+}
