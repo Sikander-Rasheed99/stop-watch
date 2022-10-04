@@ -27,7 +27,8 @@ function time() {
 };
 
 startBtn.onclick = function (){
-    interval = setInterval(time);
+    clearInterval(interval);
+    interval = setInterval(time, 10);
 }
 stopBtn.onclick = function (){
     clearInterval(interval);
